@@ -33,12 +33,15 @@ This is a Prompt-as-Code project with zero dependencies, perfectly compatible wi
 - **Cursor IDE**: Configured via `.cursorrules`.
 - **Cline (Formerly Claude Dev) / Roo Code**: Configured via Custom Instructions.
 - **Superpowers (obra/superpowers)**: Configured via `.skill.md` definitions.
-- **Claude Code CLI**: Configured via `CLAUDE.md` or skills.
+- **Claude Code CLI**: Configured via CLAUDE.md or skills.
+- **Antigravity**: Configured via workflow defined in `.agents/workflows/boss-mode.md`.
 - **General LLMs**: ChatGPT, Claude, Gemini (as System Prompts).
 
 🚀 **Quick Start**
 
 **Cursor Users**: Copy [integrations/cursor/.cursorrules](./integrations/cursor/.cursorrules) to your project root.
+
+**Antigravity Users**: Use the [boss-mode workflow](./.agents/workflows/boss-mode.md) or check [integrations/antigravity/README.md](./integrations/antigravity/README.md).
 
 **Superpowers Users**: Import [integrations/superpowers/boss-mode.skill.md](./integrations/superpowers/boss-mode.skill.md).
 
@@ -80,11 +83,14 @@ AI 必須產出：目標對齊 (Summary)、待釐清盲區 (Missing Context)、�
 - **[Cline (原 Claude Dev) / Roo Code]**: 透過 Custom Instructions 配置
 - **Superpowers (obra/superpowers)**: 透過 .skill.md 技能定義檔配置
 - **Claude Code CLI**: 透過 CLAUDE.md 或 skills 配置。
+- **Antigravity**: 透過 `.agents/workflows/boss-mode.md` 定義的工作流配置。
 - **通用大型語言模型**: ChatGPT, Claude, Gemini (作為 System Prompts 使用)
 
 🚀 **快速開始**
 
 **Cursor 使用者**: 將 [integrations/cursor/.cursorrules](./integrations/cursor/.cursorrules) 複製到你的專案根目錄。
+
+**Antigravity 使用者**: 使用 [boss-mode 工作流](./.agents/workflows/boss-mode.md) 或查看 [integrations/antigravity/README.md](./integrations/antigravity/README.md)。
 
 **Superpowers 使用者**: 匯運用 [integrations/superpowers/boss-mode.skill.md](./integrations/superpowers/boss-mode.skill.md)。
 
