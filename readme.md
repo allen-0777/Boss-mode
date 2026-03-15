@@ -1,5 +1,5 @@
 🎯 專案目標
-[繁體中文](file:///Users/liyuchan/Desktop/Boss-Mode/readme.md) | [English](file:///Users/liyuchan/Desktop/Boss-Mode/README_EN.md)
+[繁體中文](file:///Users/liyuchan/Desktop/Boss-Mode/README.md) | [English](file:///Users/liyuchan/Desktop/Boss-Mode/README_EN.md)
 
 Boss Mode (老闆模式) 是一個專為 AI 程式開發代理（如 Cursor, Cline, Superpowers）設計的進階提示詞架構與工作流外掛。它的核心目標是將 AI 從「無腦寫 Code 的菜鳥」轉變為「資深技術總監 (Senior Staff Engineer)」—— 在寫下任何一行程式碼之前，強制 AI 先釐清需求、提出架構提案，並取得你的批准。
 
@@ -35,6 +35,8 @@ Cursor IDE: 透過 .cursorrules 檔案配置
 [Cline (原 Claude Dev) / Roo Code]: 透過 Custom Instructions 配置
 
 Superpowers (obra/superpowers): 透過 .skill.md 技能定義檔配置
+
+Claude Code CLI: 透過 CLAUDE.md 或 skills 配置。
 
 通用大型語言模型: ChatGPT, Claude, Gemini (作為 System Prompts 使用)
 
