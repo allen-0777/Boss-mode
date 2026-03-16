@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l /Users/liyuchan/Desktop/Boss-Mode/integrations/*/*.md /Users/liyuchan/Desktop/Boss-Mode/integrations/*/*/.cursorrules /Users/liyuchan/Desktop/Boss-Mode/*.md)",
+      "Bash(python3 -m json.tool)",
+      "Bash(find ~/.claude -name *.skill.md)",
+      "Bash(find ~/.claude/plugins/cache -name *.skill.md)",
+      "Bash(find ~/.claude/plugins/cache/claude-plugins-official -name *.skill.md)",
+      "Bash(mkdir -p /Users/liyuchan/Desktop/boss-mode-test)",
+      "Bash(cp /Users/liyuchan/Desktop/Boss-Mode/integrations/claude-code/CLAUDE.md /Users/liyuchan/Desktop/boss-mode-test/CLAUDE.md)"
+    ]
+  }
+}

@@ -9,9 +9,12 @@ This workflow enforces the 3-phase guardrail system.
 - Goal: Align on the objective and clear ambiguity.
 - Rule: NO IMPLEMENTATION CODE.
 - Steps:
-    1. Create/Update `task.md` with high-level items.
-    2. Respond with 🎯 Summary, 🚨 Missing Context, and 💡 Default Proposal.
-    3. Use `notify_user` to request approval.
+    1. Identify 1-3 blocking questions (without these, you cannot proceed).
+    2. Use `notify_user` to ask each question ONE AT A TIME with lettered options (a/b/c + default).
+    3. Wait for user response before asking the next question.
+    4. Create/Update `task.md` with answers and high-level items.
+    5. Respond with 🎯 Summary, 🚨 Missing Context, and 💡 Default Proposal.
+    6. Use `notify_user` to request approval.
 
 ## Phase 2: Planning
 - Goal: Create a detailed execution plan.

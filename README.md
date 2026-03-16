@@ -59,11 +59,20 @@ This is a Prompt-as-Code project with zero dependencies, perfectly compatible wi
 🎯 **專案目標**
 Boss Mode (老闆模式) 是一個專為 AI 程式開發代理（如 Cursor, Cline, Superpowers）設計的進階提示詞架規與工作流外掛。它的核心目標是將 AI 從「無腦寫 Code 的菜鳥」轉變為「資深技術總監 (Senior Staff Engineer)」—— 在寫下任何一行程式碼之前，強制 AI 先釐清需求、提出架構提案，並取得你的批准。
 
-🚨 **解決的痛點**
-當使用者（老闆）給出高層次或模糊的指令（例如：「幫我加一個可以看營收的後台 Dashboard」），傳統的 AI 往往會自行「通靈」猜測缺少的細節，並立刻產出大量且常常漏洞百出的實作程式碼。這會導致：
-- 產生不必要的技術債。
-- 破壞現有架構或拖垮資料庫效能。
-- 浪費大量 API Token 與無止盡的 Debug 迴圈。
+🚨 **核心痛點與解決方案 (The Philosophy)**
+> **✨「讓 Boss Mode 的精神大腦，驅動 Superpowers 的強大肉體。」**
+
+當使用者（老闆）給出高層級或模糊指令（例如：「幫我加一個可以看營收的後台」），傳統 AI 往往會自行「通靈」並瞬間產出大量充滿技術債的程式碼。
+
+Boss Mode 旨在成為 **「軟體工程的防禦塔 (Macro-level Defense)」**：
+- **Superpowers (obra/superpowers) 是「資深實作工程師」**：負責精準地切分 Git 分支、寫自動化測試、處理底層髒活（How to build it right）。
+- **Boss Mode 則是「資深技術總監 (Senior Staff Engineer)」**：負責在第一時間擋下寫 Code 的衝動，逼迫 AI 與你對齊商業邏輯、畫好架構藍圖（What is the right thing to build）。
+
+**解決的痛點：**
+- 減少不必要的技術債與錯誤的架構方向。
+- 防止 AI 破壞現有資料庫效能。
+- 節省大量 API Token 與無止盡的 Debug 迴圈。
+- **強制產出技術文件 (TECH_DOC.md)**：開發前、中、後永遠保持文件最新狀態。
 
 💡 **核心機制：三階段護欄 (3-Phase Guardrails)**
 Boss Mode 在底層實作了嚴格的狀態機 (State Machine) 流程：
